@@ -1,7 +1,7 @@
 let a = '1+2*7';//expression
 console.log(eval(a));
 
-let n1 = '1';
+let n1 = '2';
 console.log(parseInt(n1)+2);
 
 
