@@ -1,7 +1,7 @@
 function addNumbers(){
     let sum = 0;
 
-    // /TypeError: arguments.forEach is not a function
+   // TypeError: arguments.forEach is not a function
     // arguments.forEach(element => {
     //     sum = sum + element;
     // });

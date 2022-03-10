@@ -4,10 +4,11 @@ function multipleArgumnets(multiplier,...arg){
     })
 }
 console.log("--------------------------");
-multipleArgumnets(2,4,5);
+multipleArgumnets(3,4,5);
 console.log("--------------------------");
-multipleArgumnets(2,4,5,6);
+multipleArgumnets(4,4,5,6);
 console.log("--------------------------");
 
 multipleArgumnets(2,4,5,6,10,19);
 console.log("--------------------------");
+console.log("Imran Ansari");
