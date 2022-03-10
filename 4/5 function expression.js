@@ -12,4 +12,4 @@ const getCube = function cube(num){
 }
 
 // cube(5);//ReferenceError: cube is not defined
-getCube(5);
+getCube(6);

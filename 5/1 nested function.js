@@ -10,5 +10,5 @@ function getFunction(num){
     return sqr;
 }
 
-let result = getFunction(5);
+let result = getFunction(7);
 console.log(result);//25

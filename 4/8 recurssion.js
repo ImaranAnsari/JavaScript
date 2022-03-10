@@ -4,10 +4,10 @@ function printNumSeries(num){
         console.log(i);
     }
 }
-printNumSeries(5);
+printNumSeries(10);
 
 
-//without loop print 5,4,3,2,1 --> recursion
+//without loop print 7,6,5,4,3,2,1 --> recursion
 console.log("Using Rec");
 function printNumSeriesRecursion(num){
  
@@ -19,4 +19,4 @@ function printNumSeriesRecursion(num){
     printNumSeriesRecursion(num);
 
 }
-printNumSeriesRecursion(5);
+printNumSeriesRecursion(7);

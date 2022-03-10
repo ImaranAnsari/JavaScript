@@ -1,5 +1,5 @@
 // let decideFun = 'add';//configuration
-let decideFun = 'subtract';
+let decideFun = 'add';
 
 let getResult;
 if(decideFun == 'add'){
@@ -14,4 +14,4 @@ if(decideFun == 'add'){
 
 
 //call
-getResult(5,3);
+getResult(5,4);

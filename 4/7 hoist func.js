@@ -6,7 +6,7 @@ function getNum3(){
 console.log(getNum3());//3
 
 console.log(getNum2);//undefined
-// console.log(getNum2());//TypeError: getNum2 is not a function
+ //console.log(getNum2());//TypeError: getNum2 is not a function
 var getNum2 = function(){
     return 2;
 }
@@ -15,7 +15,7 @@ console.log(getNum2());//2
 
 
 
-// console.log(getNum1);//ReferenceError: Cannot access 'getNum1' before initialization
+ //console.log(getNum1);//ReferenceError: Cannot access 'getNum1' before initialization
 const getNum1 = function(){
     return 1;
 }

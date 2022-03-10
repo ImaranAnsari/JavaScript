@@ -7,12 +7,12 @@ const printSeries = function printNumSeriesRecursion(num){
     console.log(num);
     num--;
     //Method 2
-    // printNumSeriesRecursion(num);
+     //printNumSeriesRecursion(num);
 
     //Method 3
-    arguments.callee(num);
+   // arguments.callee(num);
 
-    // printSeries(num);
+     printSeries(num);
 }
 // printNumSeriesRecursion(5);//ReferenceError: printNumSeriesRecursion is not defined
 printSeries(5);

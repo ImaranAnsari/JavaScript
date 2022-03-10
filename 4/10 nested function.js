@@ -1,5 +1,7 @@
 function square(num){
 
+    //let n2;
+   
     function getSquare(n1){
         
         function getSquareFromInside(n2){
@@ -11,4 +13,4 @@ function square(num){
     getSquare(num)
 }
 
-square(4);
+square(5);

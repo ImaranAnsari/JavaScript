@@ -3,7 +3,7 @@ function updateName(student){
     console.log(student); 
 }
 
-let objS = {name: "Azhar"};
+let objS = {name: "Imran"};
 updateName(objS);
 console.log("Old Object is  ",objS);
 //Pass by reference
