@@ -1,5 +1,5 @@
 function xyz(){
-    this.x = 5;
+    this.x = 6;
 }
 
 let y = new xyz();

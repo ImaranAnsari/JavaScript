@@ -1,7 +1,7 @@
 let x = 3 & 2;
 console.log(x);
 
-let a = 5;// 0101
+let a = 6;// 0101
 //check if last bit is 1
 let n = 1;// 0001
 

@@ -9,7 +9,7 @@ let a = '2';
 console.log(+a+3);
 
 //delete
-let obj = {name:"Akarsh",mobile:9811};
+let obj = {name:"Bushra",mobile:763130};
 console.log(obj);
 delete obj.mobile;
 console.log(obj);//{ name: 'Akarsh' }
