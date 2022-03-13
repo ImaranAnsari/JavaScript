@@ -15,7 +15,7 @@ console.log("one digit",ran1);
 
 
 //two digit
-let ran2 = Math.floor(Math.random()*100,1);//0-1
+let ran2 = Math.round(Math.random()*100,1);//0-1
 console.log("Two digit",ran2);
 
 let num1 = 34500000;

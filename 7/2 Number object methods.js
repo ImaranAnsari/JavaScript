@@ -8,7 +8,7 @@ if(!Number.isNaN(x)){
 }
 
 
-let xSafe = +9007199254740992;
+let xSafe = +9007199254740991;
 console.log("Is safe ",Number.isSafeInteger(xSafe));//Is safe  false
 
 let n1 = '1';
