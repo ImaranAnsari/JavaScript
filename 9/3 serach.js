@@ -1,6 +1,6 @@
-let regex = /\w/g
+let regex = /\e/g
 
-let regex1 = /[^\w\s]/g;
+let regex1 = /[^\m\s]/g;
 
 let str = 'Hi I am taking a workshop. I am here';
 

@@ -1,12 +1,12 @@
 let newMap = new Map()
-newMap.set("name","Arush")
+newMap.set("name","Imaran")
 
 console.log(newMap);//Map(1) { 'name' => 'Arush' }
 
 newMap.set("address","Varanasi");
 console.log(newMap);//Map(2) { 'name' => 'Arush', 'address' => 'Varanasi' }
 
-newMap.set("mobile",981102222)
+newMap.set("mobile",9811022785)
 console.log(newMap);//Map(3) {
 //     'name' => 'Arush',
 //     'address' => 'Varanasi',

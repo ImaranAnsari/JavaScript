@@ -1,5 +1,5 @@
 let name1 = {name:"hi"}
-m = {[name1]:"Azhar"}
+m = {[name1]:"Imran"}
 name1 = "My Name"
 name2 = {name:"hi"}
 console.log(m[name2]);
