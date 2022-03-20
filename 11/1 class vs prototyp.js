@@ -16,6 +16,7 @@ class Employee{
         this.name=name;
     }
 
+
     void autoSerial(){
         sn++;
     }
@@ -44,13 +45,13 @@ Manager.prototype = Object.create(Employee.prototype);
 Manager.prototype.constructor = Manager
 
 
-let akarsh = new Manager("Akarsh");
+let Imran = new Manager("Imran");
 
-console.log(akarsh);
+console.log(Imran);
 
-akarsh.email = "abc@gmail.com";
+Imran.email = "abc@gmail.com";
 
-console.log(akarsh);
+console.log(Imran);
 
-console.log(akarsh.__proto__);
+console.log(Imran.__proto__);
 
