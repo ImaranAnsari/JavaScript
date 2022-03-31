@@ -1,6 +1,6 @@
 function returnUser(){
     return new Promise((resolve, reject)=>{
-        resolve({name:"Azhar"})
+        resolve({name:"imran"})
     });
 }
 

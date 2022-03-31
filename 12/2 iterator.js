@@ -18,6 +18,7 @@ function makeRangeIterator(start = 0, end = Infinity, step = 1) {
 }
 
 const myRangeIterator = makeRangeIterator(0,10);//it is returning rangeIterator
+
 console.log(myRangeIterator.next());
 console.log(myRangeIterator.next());
 console.log(myRangeIterator.next());
@@ -29,3 +30,12 @@ console.log(myRangeIterator.next());
 console.log(myRangeIterator.next());
 console.log(myRangeIterator.next());
 console.log(myRangeIterator.next());
+
+
+// for(let myRangeIterator in iterationCount){
+// console.log(myRangeIterator.next());
+// }
+
+// iterationCount.forEach((nextIndex)=>{
+//     console.log(myRangeIterator.next());
+// });
